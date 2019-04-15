@@ -20,7 +20,7 @@ class SortedList {
   }
 
   min() {
-    if (this.length == 0) return new Error("EmptySortedList")
+    if (this.length === 0) return new Error("EmptySortedList")
     return Math.min(...this.items)
   }
 
